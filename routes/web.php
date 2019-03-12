@@ -29,3 +29,4 @@ Route::get('/hprose',function (){
 
 Route::get('/redis','PubSubController@pub');
 Route::get('/index','PubSubController@index');
+Route::get('/hprose','HproseController@index');
